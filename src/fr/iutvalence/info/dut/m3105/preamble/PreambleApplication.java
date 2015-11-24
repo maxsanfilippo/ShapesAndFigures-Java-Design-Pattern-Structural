@@ -9,7 +9,7 @@ public class PreambleApplication
 		ShadowShapeDecorator shadows = new ShadowShapeDecorator(newcircle, 5, 4);
 		shadows.draw(new Position(3,4));
 		
-		BorderDecorator border = new BorderDecorator(newcircle, 4);
+		BorderDecorator border = new BorderDecorator(shadows, 4);
 		border.draw(new Position(3,4));
 		
 		

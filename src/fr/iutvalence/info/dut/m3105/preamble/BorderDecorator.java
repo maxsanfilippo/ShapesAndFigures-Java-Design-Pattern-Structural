@@ -14,7 +14,7 @@ public class BorderDecorator extends Shape
 	@Override
 	public String toString()
 	{
-		return this.shape.toString()+"BorderDecorator [thickness=" + thickness + " ]";
+		return this.shape.toString()+" avec bord (thickness=" + thickness + " )";
 	}
 	
 }
